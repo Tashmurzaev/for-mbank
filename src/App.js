@@ -1,11 +1,7 @@
-import './App.css';
+import "./App.css";
+import DateHeatMap from "./components/dateHeatMap/DateHeatMap";
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+export default function App() {
+  return <DateHeatMap />;
 }
-
-export default App;
